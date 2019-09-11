@@ -10,6 +10,7 @@ Add-AzureRmAccount -Credential $cred -TenantId $tenantID -ServicePrincipal
 # Creating New ResourceGroup for Deployment
 
 #New-AzureRmResourceGroup -Name DotNetApps -Location "Central US"
+#Checking the Poll SCM in jenkins
 
 #Deploying web app template to azure using template
 
